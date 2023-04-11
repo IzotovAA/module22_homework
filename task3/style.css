@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    width: 250px;
+    height: 70px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 10px;
+    color: wheat;
+}
+
+.button:hover {
+    scale: 1.1;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 255, 0.2);
+}
+
+.button:active {
+    background-color: rgb(20, 167, 89);
+}
+
+.container {
+    width: fit-content;
+    margin: 30px;
+}
+
+.output-wrapper {
+    margin: 20px auto;
+}
+
+.output-wrapper p {
+    margin: 10px auto;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+}
